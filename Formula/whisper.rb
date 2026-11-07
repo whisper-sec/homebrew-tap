@@ -3,28 +3,28 @@
 class Whisper < Formula
   desc "Give any agent a routable Whisper IPv6 identity and safe egress"
   homepage "https://whisper.online"
-  version "0.256.1"
+  version "0.257.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/whisper-sec/whisper-cli/releases/download/v0.256.1/whisper-darwin-arm64"
-      sha256 "1714dc0992c5caf726c85b0b5b05a4463618cd2ac49dfaf4cc40c05dc1114bc4"
+      url "https://github.com/whisper-sec/whisper-cli/releases/download/v0.257.0/whisper-darwin-arm64"
+      sha256 "60e2d3b1d539e6b6cef55373448ca2353449d084f09246de4914986ad9d7fd8e"
     end
     on_intel do
-      url "https://github.com/whisper-sec/whisper-cli/releases/download/v0.256.1/whisper-darwin-amd64"
-      sha256 "a7f3192fdf045d88143455cd29a1b536629f0070c509d8000e43894c3d46f03b"
+      url "https://github.com/whisper-sec/whisper-cli/releases/download/v0.257.0/whisper-darwin-amd64"
+      sha256 "ff8f076764723ab0ee963764540335c0ba886fa6538b924ee2b3183440578f18"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/whisper-sec/whisper-cli/releases/download/v0.256.1/whisper-linux-arm64"
-      sha256 "029f6f481939d4724d6472d6e60ec1fa9091160891b47e422253def9ec6bb3b0"
+      url "https://github.com/whisper-sec/whisper-cli/releases/download/v0.257.0/whisper-linux-arm64"
+      sha256 "01407f5e1a7ca33a3bd21500ddfe457bb68da30a63d4c7e6153542ac57d661d0"
     end
     on_intel do
-      url "https://github.com/whisper-sec/whisper-cli/releases/download/v0.256.1/whisper-linux-amd64"
-      sha256 "ff12af29b98d94d3264e85cbf6f0d34be06706bef6e61f6d6de93423d5f50e8f"
+      url "https://github.com/whisper-sec/whisper-cli/releases/download/v0.257.0/whisper-linux-amd64"
+      sha256 "44b387bb50c04c8ec938d27dd2d8df566b713e57dfadbfe7d1ec5c69158d3041"
     end
   end
 
